@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Travel Agency</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Destinations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Packages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Featured Destinations Carousel -->
+    <div id="destinationCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="destination1.jpg" class="d-block w-100" alt="Destination 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Destination 1</h5>
+                    <p>Experience the beauty of Destination 1.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="destination2.jpg" class="d-block w-100" alt="Destination 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Destination 2</h5>
+                    <p>Discover the wonders of Destination 2.</p>
+                </div>
+            </div>
+            <!-- Add more carousel items as needed -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#destinationCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#destinationCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Travel Packages Section -->
+    <section class="packages-section">
+        <div class="container text-center my-5">
+            <h2>Our Travel Packages</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="package1.jpg" class="card-img-top" alt="Package 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Package 1</h5>
+                            <p class="card-text">Explore the best places with this package.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="package2.jpg" class="card-img-top" alt="Package 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Package 2</h5>
+                            <p class="card-text">Enjoy a relaxing vacation with this package.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section bg-light py-5">
+        <div class="container text-center">
+            <h2>What Our Customers Say</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="testimonial">
+                        <p>"This was the best vacation ever! Thank you, Travel Agency!"</p>
+                        <strong>- Customer Name</strong>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial">
+                        <p>"Everything was perfectly organized. Highly recommend!"</p>
+                        <strong>- Customer Name</strong>
+                    </div>
+                </div>
+                <!-- Add more testimonials -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2025 Travel Agency. All rights reserved.</p>
+        <p>Contact us: <a href="mailto:info@travelagency.com" class="text-white">info@travelagency.com</a></p>
+    </footer>
+
+    <!-- Bootstrap JS and Dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
